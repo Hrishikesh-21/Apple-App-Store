@@ -8,53 +8,59 @@ import sweet3 from "../../images/homepod-select-midnight-202210.jpeg";
 export const productData = [
   {
     img: product1,
-    alt: 'MacBook',
+    id: 'MacBook1',
     name: 'MacBook Air 13',
     desc: 'The most affordable Mac laptop to get things done on the go.',
-    price: 'From ₹99900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹99900.00',
+    button: 'Add to Cart',
+    count:0
   },
   {
     img: product2,
-    alt: 'MacBook',
+    id: 'MacBook2',
     name: 'MacBook Air 13″ and 15',
     desc: 'Strikingly thin and fast so you can work, play or create anywhere.',
-    price: 'From ₹114900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹114900.00',
+    button: 'Add to Cart',
+    count:0
   },
   {
     img: product3,
-    alt: 'MacBook',
+    id: 'MacBoo3',
     name: 'MacBook Pro 14″ and 16″',
     desc: 'The most advanced Mac laptops for demanding workflows.',
-    price: 'From ₹169900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹169900.00',
+    button: 'Add to Cart',
+    count:0
   }
 ]
 
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'HomePod mini ',
+    id: 'HomePod mini ',
     name: 'HomePod mini',
     desc: 'Dual force-cancelling passive radiators',
-    price: 'From ₹10900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹10900.00',
+    button: 'Add to Cart',
+    count:0
   },
   {
     img: sweet3,
-    alt: 'HomePod ',
+    id: 'HomePod ',
     name: 'HomePod Air',
     desc: 'Beamforming array of five tweeters Spatial Audio footnote ¹',
-    price: 'From ₹32900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹32900.00',
+    button: 'Add to Cart',
+    count:0
   },
   {
     img: sweet1,
-    alt: 'AirPods Max ',
+    id: 'AirPods Max ',
     name: 'AirPods Max',
     desc: 'AirPods Max combine high-fidelity audio with industry-leading Active Noise Cancellation',
-    price: 'From ₹59900.00*',
-    button: 'Add to Cart'
+    price: 'From ₹59900.00',
+    button: 'Add to Cart',
+    count:0
   }
 ];
